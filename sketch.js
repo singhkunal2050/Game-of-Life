@@ -28,7 +28,6 @@ function setup() {
 
 function draw() {
   background(16,30,11);
-
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
       let x = i * resolution;
