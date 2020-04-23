@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+    background: linear-gradient(143deg,#fa9292,#84ffff) no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive;
+}
+
