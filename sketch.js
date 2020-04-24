@@ -34,7 +34,7 @@ function draw() {
       let y = j * resolution;
       if (grid[i][j] == 1) {
         fill(255);
-        stroke(0);
+        stroke(1);
         ellipse(x, y, resolution+2 , resolution+2);
       }
     }
