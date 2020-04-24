@@ -2,7 +2,6 @@
 Conways Game of life representation in a web page
  https://singhkunal2050.github.io/Game-of-Life/.
 
-
 # KSR_game_of_life
 The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970
 
