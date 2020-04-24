@@ -35,7 +35,7 @@ function draw() {
       if (grid[i][j] == 1) {
         fill(255);
         stroke(0);
-        ellipse(x, y, resolution, resolution);
+        ellipse(x, y, resolution-2, resolution-2);
       }
     }
   }
