@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="hero">
+
+
+        <div class="hero__inner">
+
+            <div class="hero__triangleLayer">
+
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum a, obcaecati maiores ratione
+                    fugit labore rerum? Explicabo officiis quaerat nobis?</p>
+                <button>Click Me</button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+</body>
+<script>
+
+let hero = document.querySelector('.hero')
+
+
+for(let i = 0 ; i <1000 ; i++){
+    hero.innerHTML += `
+    <div class="block"></div>
+    ` 
+}
+
+let block = document.querySelectorAll('.block')
+
+
+for(let i = 0 ; i <1000 ; i++){
+    // block[i].style.background = `rgb(${i*145%256} , ${i*999%256} ,${i*111%256})`;
+    block[i].style.animationDelay = `${i*0.05}s`;
+    if(i%2==1){
+        block[i].classList.add('block-odd')
+        block[i].style.marginLeft = "-4.85vw"
+    }else{
+        block[i].style.marginLeft = "1px"
+    }
+
+    block[i].style.marginBottom = "1px"
+
+}
+
+</script>
+
+</html>
