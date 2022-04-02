@@ -1,16 +1,10 @@
 # Game-of-Life
-Conways Game of life representation in a web page
- https://singhkunal2050.github.io/Game-of-Life/.
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![p5js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-# KSR_game_of_life
-The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970
-
-# Language 
-Javascript
-
-# Framework
-p5.js
-
+Conways Game of life representation in a web page. The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970
 
 The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine. 
 
